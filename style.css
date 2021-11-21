@@ -1,18 +1,30 @@
 body {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     width: 100%;
-    border-radius: 25%;
     text-align: left;
     font-family: arial;
 }
 #maindiv{
-    padding: 5%;
-    text-align: left;
+    background-color: white;
+    color: black;
+    width: 35%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    border-radius: 3%;
+    padding-left:3%;
+    align: center;
+    text-align:left;
     font-family: arial;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0%;
+    padding-bottom: 1%;
     font-weight: bold;
+}
+#div2{
+    padding: 7%;
+    padding-bottom: 1%;
+    padding-top: 0%;
 }
 #result2, #result4, #result6, #result8{
     background-color:yellow;
@@ -22,7 +34,7 @@ footer{
     font-weight: bold;
 }
 label{
-    width: 10%;
+    width: 35%;
     display: inline-block;
     overflow: hidden;
 }
