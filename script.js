@@ -13,8 +13,8 @@ function compute()
         p.focus();
         return false;
     }
-    if (p.value < 1){
-        alert("Please Enter Positive Value.");
+    if (p.value < 1 || p.value % 1 != 0){
+        alert("Please Enter A Positive Integer.");
         p.focus();
         return false;
     }
@@ -23,6 +23,7 @@ function compute()
     yv = y.value;
     res = pv * rv * 0.01 * yv;
     res = res.toFixed(2);
+    pv = parseInt(pv);
     var date = new Date;
     yr = parseInt(date.getFullYear());
     yr += parseInt(yv); 
