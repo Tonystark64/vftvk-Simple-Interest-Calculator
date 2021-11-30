@@ -14,12 +14,11 @@ body {
     margin-top: 2%;
     border-radius: 3%;
     padding-left:3%;
-    align: center;
-    text-align:left;
     font-family: arial;
     padding-top: 0%;
     padding-bottom: 1%;
     font-weight: bold;
+    border: medium solid black; /*border width,style,color*/
 }
 #div2{
     padding: 7%;
@@ -34,9 +33,9 @@ footer{
     font-weight: bold;
 }
 label{
-    width: 35%;
-    display: inline-block;
-    overflow: hidden;
+    width:35%;
+    display: inline-block; /*行内块元素*/
+    overflow: hidden; /*内容溢出元素框不可见*/
 }
 h1 {
     color:gray;

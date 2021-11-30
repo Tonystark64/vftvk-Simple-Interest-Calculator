@@ -6,12 +6,13 @@
         <title>Simple Interest Rate Website</title>
     </head>
     <body>
-        <div id="maindiv">
+        <div id="maindiv"> <!--用于margin，内外背景颜色不一的设置-->
             <h1>Simple Interest Calculator</h1>
-            <div id="div2">
+            <div id="div2"> <!--第一层缩进-->
             <label width="10px">Amount</label>
             <input type="number"  id="principal" min="10" placeholder=""><br/><br/>
             <label>Interest Rate</label>
+            <!--oninput和onchange调用函数，实时显示进度条数值-->
             <input type="range"  min="1" max="20" id="rate" step="0.25" value="10.25" oninput="showValue()" onchange="showValue()">
             <span id="rateNo">10.25%</span><br/><br/>
             <label>No. of Years </label>
